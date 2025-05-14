@@ -8,7 +8,7 @@ btn1.addEventListener("click", () => {
     localStorage.setItem("counter_1", counter1);
 });
 
-const btn2 = document.getElementById("btn1");
+const btn2 = document.getElementById("btn2");
 btn2.addEventListener("click", () => {
     counter2++;
     text2.innerText = counter2; 
