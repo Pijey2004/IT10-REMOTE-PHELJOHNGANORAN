@@ -22,9 +22,9 @@ const text3 = document.getElementById('totalCount');
 
 load();
 function load() {
-    counter1 = localStorage.getItem("counter_1");
-    counter1 = localStorage.getItem("counter_2");
+    counter1 = parseInt(localStorage.getItem("counter_1"));
+    counter1 = parseInt(localStorage.getItem("counter_2"));
     text1.innerText = counter1; 
     text2.innerText = counter2;     
-    text3.innerText = counter1 + counter2;
+    text3.innerText ="Total Count: "(counter1 + counter2);
 }
