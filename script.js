@@ -1,6 +1,5 @@
 let counter1 = 0;
 let counter2 = 0;
-load();
 const btn1 = document.getElementById("btn1");
 btn1.addEventListener("click", () => {
     counter1++;
@@ -21,6 +20,7 @@ const text1 = document.getElementById('count1');
 const text2 = document.getElementById('count2');
 const text3 = document.getElementById('totalCount');
 
+load();
 function load() {
     counter1 = localStorage.getItem("counter_1");
     counter1 = localStorage.getItem("counter_2");
